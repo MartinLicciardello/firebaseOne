@@ -9,7 +9,7 @@ import {
 } from 'firebase/firestore';
 import { db } from '../../firebase/firebaseConfig';
 
-import './AlbumDetail.css';
+import './CelularDetail.css';
 import CardComponent from '../../components/CardComponent/CardComponent';
 import Spinner from '../../components/Spinner/Spinner';
 
@@ -35,7 +35,6 @@ const AlbumDetail = () => {
 			);
 			const docs = [];
 			const querySnapshot = await getDocs(q);
-			// console.log(querySnapshot);
 			querySnapshot.forEach((doc) => {
 				docs.push({ ...doc.data(), id: doc.id });
 			});

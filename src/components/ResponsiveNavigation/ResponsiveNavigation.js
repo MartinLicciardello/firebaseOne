@@ -37,10 +37,10 @@ const ResponsiveNavigation = () => {
 					<Link to='/contact' style={styles.linkButton}>
 						Contact
 					</Link>
-					{/* <Link to='/shop' style={styles.linkButton}>
-						<i class='fa-solid fa-cart-shopping'></i>
-						{items.length}
-					</Link> */}
+					<Link to='/shop' style={styles.linkButton}>
+						CARRITO 💰 
+						
+					</Link>
 				</Toolbar>
 			</Container>
 		</AppBar>
